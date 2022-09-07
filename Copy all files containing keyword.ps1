@@ -1,0 +1,1 @@
+﻿Get-ChildItem C:\Temp1 -recurse -filter '*.txt*' | Copy-Item -destination C:\Temp2
