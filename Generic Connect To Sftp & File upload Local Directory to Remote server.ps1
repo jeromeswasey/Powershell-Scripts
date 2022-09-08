@@ -1,4 +1,5 @@
-﻿try
+########### Must have WINSCP.DLL in the file directory in which this script runs or the script will not load the WINSCP profile or automate
+try
 {
     # Load WinSCP .NET assembly
     Add-Type -Path "WinSCPnet.dll"
